@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+      <!-- daisyUI cdn link  -->
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+  
+</head>
+<body>
+
+    <div id="main-header" class="sticky top-0 z-50 backdrop-blur-3xl  transition-all duration-300">
+        <header id="header" class="bg-red-50 mb-10 lg:mb-16 ">
+            <nav class=" w-[90%] lg:w-4/5 mx-auto">
+                <div class="flex justify-between py-6  lg:p-6 items-center">
+    
+                    <!-- blog button  -->
+                    <button id="btn-blog"  class="btn hover:bg-lime-300 bg-lime-300 flex font-semibold lg:text-xl px-6">Blog</button>
+                    <div class="flex items-center gap-1 ml-9 lg:ml-0 lg:gap-2">
+                        <img class="w-10" src="./img/logo.png" alt="Donate Bangladesh Logo">
+                        <h2 class="font-semibold lg:text-xl w-[50%] lg:w-full ">Donate Bangladesh</h2>
+                    </div>
+                    <div class="flex gap-1 lg:gap-2 items-center mr-5">
+                        <img src="./img/coin.png" alt="coin">
+                        <h3 id="main-balance" class="font-medium lg:text-xl">5500</h3>
+                        <h3 class="font-medium lg:text-xl">BDT</h3>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    
+        <!-- header section end  -->
+    
+         <!-- button section -->
+     <section class="flex gap-3 justify-center pb-3">
+        <button id="btn-donation"  class="focus:bg-lime-300 btn hover:bg-grey-50 font  bg-lime-300 flex font-semibold text-xl px-6 " >Donation</button>
+        <button id="btn-history" class="btn  hover:bg-grey-50  focus:bg-lime-300 bg-slate-100 flex font-semibold text-xl px-6  ">History</button>
+     </section>
+     <div class="divider h-0"></div>
+    </div>
+    
+</body>
+</html>
